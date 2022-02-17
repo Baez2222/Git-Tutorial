@@ -9,7 +9,7 @@
 In Git, Repositories are a sort of data structure which store files and directories along with metadata about the changes that those files have undergone. Repositories track all changes made to files in your project, building a history over time. 
 <h4>Branches</h4>
 In Git, branching is when you diverge from the main branch of a repository. When you start working on a repository to add a new feature or fix a bug, you essentially make a new branch.
-![Git Branch](https://raw.github.com/Baez2222/Git-Tutorial/main/git-branch.png?raw=true)
+![Git Branch](git-branch.png?raw=true)
 <h4>Commit</h4>
 Commits are the core building block units of a Git project timeline. Commits are snapshots along the timeline of a Git project. They are stored in your local repository.
 <h4>Stashes</h4>
