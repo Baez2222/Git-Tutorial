@@ -21,9 +21,9 @@ Git commit takes everything from the staging area and makes a permanent snapshot
 
 
 <h4>Stashes</h4>
-When you want to switch branches but your work is not complete in the current branch you are in, you might not want to commit half done work. Stashing on git allows you to save your work and switch branches without commiting the current branch.
+When you want to switch branches but your work is not complete in the current branch you are in, you might not want to commit half done work. Stashing on git allows you to save your work and switch branches without commiting the current branch. To return to the stashed branched, the command git stash pop is used.
 <h4>Merging</h4>
 Merging in Git is when you combine a working branch back into your main branch. The changes you made in your working branch are implemented into the main branch when you merge if there are no conflicting code.
 
- ![Git Merge](git-merge.png)
+![Git Merge](git-merge.png)
 </details>
