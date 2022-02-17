@@ -27,3 +27,22 @@ Merging in Git is when you combine a working branch back into your main branch. 
 
 ![Git Merge](git-merge.png)
 </details>
+
+
+---
+
+## **Creating a Git Project**
+
+### Step 1:
+### Initialize a new Repository
+The first step is to open up terminal and type in the following command:
+
+`git init TestRepo`
+
+Once you have done this, your terminal will say:
+
+`Initialized empty Git repository in /Your Directory/TestRepo/.git/`
+
+Right now your Repository is empty. If you type `git log` it will say `fatal: your current branch 'main' does not have any commits yet`. We will now add a text file to our repository.
+
+Create a new file called `test-file.txt` in the TestRepo folder. From the terminal, this can be done with the command `touch test-file.txt`
