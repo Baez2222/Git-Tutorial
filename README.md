@@ -89,19 +89,24 @@ Now you have a branch that is not in your `main` branch since you commited while
 
 Now lets say you were in the middle of typing another name in the file, but now you want to switch back to your main branch. You don't want to use a commit on code/text that is not complete. What you might want to do in this situation is stash your changes. In order to see how to do this, add some other text to the end of your file:
 
-`Baez2222
+`Baez2222\n
 Hector Ba`
 
 
 
 In your terminal type `git stash save "Started name"`. If you go back to your test-file.txt, you will notice the changes you made to the file are gone. They have been stashed in Git. Now you can safely switch to the main branch using `git checkout main` without losing your work.
 
-Now let us go back our `myBranch` branch using `git checkout myBranch`
+
+
+Now let us go back to our `myBranch` branch using `git checkout myBranch`
+
 
 
 If we want to restore our stashed work, type:
 
 `git stash pop`
+
+
 
 You will notice our incomplete name is back. We can finish the text and save the file. Now let us add and commit our final changes to our `myBranch` branch.
 
@@ -109,3 +114,28 @@ You will notice our incomplete name is back. We can finish the text and save the
 
 
 `git commit -m "Added another name"`
+
+
+
+
+Now that we have finished adding the functions we wanted to in our `myBranch` branch, we want to combine our additional file back to our main branch. We can do this by typing the following commands:
+
+`git checkout main`
+
+then
+
+`git merge myBranch`
+
+
+
+You have successfully merged your branches and are back in your main branch. The last step you might want to take is deleting the `myBranch` branch since you have no use for it anymore. You can do this using the following command:
+
+`git branch -d addedFunctions`
+
+
+
+
+
+
+
+## Congratulations 🎉 This is the end of the tutorial.
